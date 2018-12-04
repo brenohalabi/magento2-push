@@ -179,14 +179,7 @@
                 </item>
             </argument>
         </column>
-        <column name="shipping_amount" class="Magento\Sales\Ui\Component\Listing\Column\Price">
-            <argument name="data" xsi:type="array">
-                <item name="config" xsi:type="array">
-                    <item name="visible" xsi:type="boolean">true</item>
-                    <item name="label" xsi:type="string" translate="true">Shipping Amount</item>
-                </item>
-            </argument>
-        </column>
+        
         <column name="provider_shipping_costs" class="Magento\Sales\Ui\Component\Listing\Column\Price">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
